@@ -1,4 +1,4 @@
-import { formatTime } from "@utter/shared";
+import { formatTime } from "@/lib/shared";
 
 export function MonoTime({ seconds, className = "" }: { seconds: number; className?: string }) {
   return (

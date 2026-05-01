@@ -1,6 +1,6 @@
 import { GetObjectCommand } from "@aws-sdk/client-s3";
 import { getR2Client } from "./r2";
-import type { Transcript } from "@utter/shared";
+import type { Transcript } from "@/lib/shared";
 
 export async function transcribeWithGroq(r2Key: string): Promise<Transcript> {
   const apiKey = process.env.GROQ_API_KEY;

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Recording } from "@utter/shared";
+import type { Recording } from "@/lib/shared";
 import { Tag } from "./Tag";
 import { formatDate, formatDuration } from "@/lib/format";
 

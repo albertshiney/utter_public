@@ -1,5 +1,5 @@
 import { MongoClient, type Db, type Collection } from "mongodb";
-import type { Recording } from "@utter/shared";
+import type { Recording } from "@/lib/shared";
 
 type RecordingDoc = Omit<Recording, "id" | "createdAt" | "transcript" | "chats"> & {
   createdAt: Date;

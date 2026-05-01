@@ -1,5 +1,5 @@
 "use client";
-import { formatTime, type TranscriptSegment } from "@utter/shared";
+import { formatTime, type TranscriptSegment } from "@/lib/shared";
 import { useEffect, useRef } from "react";
 
 export function TranscriptList({

@@ -1,4 +1,4 @@
-import type { RecordingStatus } from "@utter/shared";
+import type { RecordingStatus } from "@/lib/shared";
 
 const STYLES: Record<RecordingStatus | "shared", { color: string; border: string; bg: string; label: string; pulse?: boolean }> = {
   ready:        { color: "text-ok",     border: "border-ok/30",     bg: "bg-ok/[0.06]",     label: "Ready" },

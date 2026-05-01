@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
 import { customAlphabet } from "nanoid";
-import type { ChatMessage, Recording } from "@utter/shared";
+import type { ChatMessage, Recording } from "@/lib/shared";
 import { getRecordingsCollection, type RecordingDoc } from "./db";
 
 const TOKEN_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
