@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
-import type { Recording } from "@utter/shared";
+import type { Recording } from "@/lib/shared";
 import { TranscriptList } from "@/components/TranscriptList";
 import { VideoPlayer, type VideoPlayerHandle } from "@/components/VideoPlayer";
 import { Logo } from "@/components/Logo";

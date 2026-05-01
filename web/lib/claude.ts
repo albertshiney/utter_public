@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { formatTime, parseTime, type TranscriptSegment } from "@utter/shared";
+import { formatTime, parseTime, type TranscriptSegment } from "@/lib/shared";
 
 let cached: Anthropic | null = null;
 export function getAnthropic(): Anthropic {

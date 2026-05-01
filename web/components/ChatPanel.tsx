@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
-import type { ChatMessage } from "@utter/shared";
+import type { ChatMessage } from "@/lib/shared";
 import { parseCitations } from "@/lib/claude";
 import { Citation } from "./Citation";
 import { Kbd } from "./Kbd";
