@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "packageManager": "pnpm@9.12.0",
   "scripts": {
     "dev": "next dev -p 3000",
@@ -19,6 +21,7 @@
     "@anthropic-ai/sdk": "^0.32.1",
     "@aws-sdk/client-s3": "^3.689.0",
     "@aws-sdk/s3-request-presigner": "^3.689.0",
+    "geist": "^1.7.0",
     "iron-session": "^8.0.4",
     "mongodb": "^6.10.0",
     "nanoid": "^5.0.8",
@@ -28,8 +31,6 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
-    "dotenv": "^16.4.5",
-    "tsx": "^4.19.2",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
     "@types/node": "^22.9.0",
@@ -37,10 +38,12 @@
     "@types/react-dom": "npm:types-react-dom@rc",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.5",
     "happy-dom": "^15.11.0",
     "mongodb-memory-server": "^10.1.2",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4"
   },
@@ -49,6 +52,8 @@
       "@types/react": "npm:types-react@rc",
       "@types/react-dom": "npm:types-react-dom@rc"
     },
-    "neverBuiltDependencies": ["mongodb-memory-server"]
+    "neverBuiltDependencies": [
+      "mongodb-memory-server"
+    ]
   }
 }
